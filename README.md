@@ -48,7 +48,8 @@ Used Python libraries such as streamlit, numpy, sklearn, pandas , cosine similar
 <li>Move the Downloaded rating.csv and anime.csv to the folder in which you have cloned the repository.</li>
 <li>upload the <b><i>Anime-Recommendation-system.ipynb</i></b> on the Jupyter Notebook. Run the project.</li>
     <li>open the app.py file in IDE , open the terminal and run <b><i>pip install streamlit</b></i></li>
-    <li>then run <b><i>streamlit run app.py</i></b></li>
+    <li>The construction of anime name.pkl and similarity.pkl will occur when running the Jupyter Notebook code. Those files must be copied and pasted into the same folder as app.py</li>
+    <li>then app.py should be executed using the <b><i>streamlit run app.py</i></b> command.</li>
 
 
 <h2>Algorithms</h2>
