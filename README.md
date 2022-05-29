@@ -29,21 +29,29 @@ Used Python libraries such as streamlit, numpy, sklearn, pandas , cosine similar
 <h2>Video Demo</h2>
 <a href="">Click me</a>
 
+<h2>Guide for your System</h2>
+<li>Clone the git repository to your system</li>
+<li>Download the Dataset from Kaggle. <a href="https://www.kaggle.com/datasets/CooperUnion/anime-recommendations-database">Download</a></p></li>
+<li>Move the Downloaded rating.csv and anime.csv to the folder in which you have cloned the repository.</li>
+<li>upload the <b><i>Anime-Recommendation-system.ipynb</i></b> on the Jupyter Notebook. Run the project.</li>
+    <li>open the app.py file in IDE , open the terminal and run <b><i>pip install streamlit</b></i></li>
+    <li>then run <b><i>streamlit run app.py</i></b></li>
+
 <h2>Algorithms</h2>
-<h3>Content Based Recommendation System<h3>
-This algorithm recommends products which are similar to the ones that a user has liked in the past. The content of each
+<h3>Content Based Recommendation System</h3>
+<p>This algorithm recommends products which are similar to the ones that a user has liked in the past. The content of each
 item is represented as a set of descriptors or terms, typically the words that occur in a document.A content based recommender
 works with data that the user provides, either explicitly (rating) or implicitly (clicking on a link). Based on that data, a user profile is
 generated, which is then used to make suggestions to the user. As the user provides more inputs or takes actions on the
-recommendations, the engine becomes more and more accurate
+    recommendations, the engine becomes more and more accurate</p>
     
-Here, there are various approaches to solve this problem and I have applied them keeping in mind their usage in theindustry.
+<p>Here, there are various approaches to solve this problem and I have applied them keeping in mind their usage in theindustry.
 They are broadly based on 2 category:
 1) User Based: Takes user_id to get recommendation
-2) Item Based: Give recommendation based on the serch
-We use cosine similarity to find the relation
-Cosine similarity metric measures the cosine of the angle between two n-dimensional vectors projected in a
-multi-dimensional space. The Cosine similarity of two documents will range from 0 to 1.
+2) Item Based: Give recommendation based on the search
+    We use cosine similarity to find the relation</p>
+<p>Cosine similarity metric measures the cosine of the angle between two n-dimensional vectors projected in a
+    multi-dimensional space. The Cosine similarity of two documents will range from 0 to 1.</p>
 
  <h3>Collaborative Filtering Recommender System</h3>
 Collaborative filtering is a technique that can filter out items that a user might like on the basis of reactions by similar users. It works by
@@ -74,7 +82,8 @@ rated them. The new item problem does not affect content-based recommendations, 
   
   
  
-  <h2>Future Possible Ideas</h2>
-Creating a hybrid recommendation system that that combines content-based filtering and collaborative filtering could
+  <h2>Future Possible Scope</h2>
+<li>Creating a hybrid recommendation system that that combines content-based filtering and collaborative filtering could
 potentially take advantage from both the representation of the content as well as the similarities among users and
-negates the limitations.
+negates the limitations.</li>
+<li>Improving the Frontend UI of the website</li>
