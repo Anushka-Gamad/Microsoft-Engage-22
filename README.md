@@ -101,4 +101,5 @@ potentially take advantage from both the representation of the content as well a
 negates the limitations.</li>
 <li>Improving the Frontend UI of the website</li>
 
-##I hope you have liked the project!
+<h4>NOTE: The theme of the website might be changed when you will execute the code from your system</h4>
+<h3>I hope you have liked the project!</h3>
