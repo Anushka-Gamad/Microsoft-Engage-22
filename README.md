@@ -26,6 +26,9 @@ Used Python libraries such as streamlit, numpy, sklearn, pandas , cosine similar
 <img src="https://github.com/Anushka-Gamad/Microsoft-Engage-22/blob/main/images/image2.png" alt="toyokoto" title="image2" align="centre"/>
 <img src="https://github.com/Anushka-Gamad/Microsoft-Engage-22/blob/main/images/image3.png" alt="toyokoto" title="image3" align="centre"/>
 
+<h2>Video Demo</h2>
+<a href="">Click me</a>
+
 <h2>Algorithms</h2>
 <h3>Content Based Recommendation System<h3>
 This algorithm recommends products which are similar to the ones that a user has liked in the past. The content of each
@@ -33,7 +36,8 @@ item is represented as a set of descriptors or terms, typically the words that o
 works with data that the user provides, either explicitly (rating) or implicitly (clicking on a link). Based on that data, a user profile is
 generated, which is then used to make suggestions to the user. As the user provides more inputs or takes actions on the
 recommendations, the engine becomes more and more accurate
-##### Here, there are various approaches to solve this problem and I have applied them keeping in mind their usage in theindustry.
+    
+Here, there are various approaches to solve this problem and I have applied them keeping in mind their usage in theindustry.
 They are broadly based on 2 category:
 1) User Based: Takes user_id to get recommendation
 2) Item Based: Give recommendation based on the serch
@@ -44,10 +48,10 @@ multi-dimensional space. The Cosine similarity of two documents will range from 
  <h3>Collaborative Filtering Recommender System</h3>
 Collaborative filtering is a technique that can filter out items that a user might like on the basis of reactions by similar users. It works by
 searching a large group of people and finding a smaller set of users with tastes similar to a particular user.
-1) User-User collaborative filtering- This algorithm first finds the similarity score between users. Based on this
+1) User Based collaborative filtering- This algorithm first finds the similarity score between users. Based on this
 similarity score, it then picks out the most similar users and recommends products which these similar users have liked
 or bought previously.
-2) Item-Item collaborative filtering: In this algorithm, we compute the similarity between each pair of items. So in our
+2) Item Based collaborative filtering: In this algorithm, we compute the similarity between each pair of items. So in our
 case we will find the similarity between each movie pair and based on that, we will recommend similar movies which
 are liked by the users in the past.
 
